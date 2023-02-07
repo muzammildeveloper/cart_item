@@ -2,6 +2,7 @@ import { decNumber, incNumber } from "./Actions/index";
 import "./App.css";
 import { useSelector, useDispatch } from "react-redux";
 
+// redux
 function App() {
   const myState = useSelector((state) => state.changeTheNumber);
   const dispatch = useDispatch();
